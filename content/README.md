@@ -1,0 +1,1 @@
+Put Markdown files for the blog in `content/posts`. Use frontmatter with `title`, `date`, `description`.

@@ -1,0 +1,1 @@
+Components: Header, Footer, Layout. Keep components small and reusable.
