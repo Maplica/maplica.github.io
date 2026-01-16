@@ -15,7 +15,7 @@ export default function Home({ solutions }: HomeProps){
         <p className="text-lg text-gray-700 mb-6">Ratkaisuja ongelmiin.</p>
         <div className="space-x-4">
           <Link href="/blog" className="inline-block px-5 py-3 bg-blue-600 text-white rounded">Blogitekstit</Link>
-          <a href="#contact" className="inline-block px-5 py-3 border rounded">Ota yhteyttä</a>
+          <a href="mailto:contact.maplica@gmail.com" className="inline-block px-5 py-3 border rounded">Ota yhteyttä</a>
         </div>
       </section>
 
