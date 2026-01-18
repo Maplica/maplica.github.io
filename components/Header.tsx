@@ -5,7 +5,7 @@ export default function Header() {
     <header className="w-full border-b bg-white">
       <nav className="max-w-4xl mx-auto p-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 text-xl font-semibold">
-          <img src="/logo.svg" alt="Maplica logo" className="h-8 w-8" />
+          <img src="/Mauno.svg" alt="Maplica logo" className="h-8 w-8" />
           <span>Maplica</span>
         </Link>
         <div className="space-x-4">
