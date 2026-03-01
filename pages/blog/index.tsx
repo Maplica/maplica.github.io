@@ -8,7 +8,7 @@ export async function getStaticProps(){
 
 export default function Blog({ posts }: { posts: any[] }){
   return (
-    <div>
+    <div className="max-w-4xl mx-auto px-6 py-12">
       <h1 className="text-3xl font-bold mb-6">Blogi</h1>
       <ul className="space-y-4">
         {posts.map(post => (

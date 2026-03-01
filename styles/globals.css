@@ -5,6 +5,21 @@
 html, body, #__next { height: 100%; }
 body { @apply bg-gray-50 text-gray-900; }
 
+/* ── Fade-in-up animation ── */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out both;
+}
+
 /* ── Solution page steps ── */
 .solution-steps ol {
   @apply list-none p-0 m-0 space-y-4;

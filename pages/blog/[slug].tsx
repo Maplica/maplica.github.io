@@ -13,7 +13,7 @@ export async function getStaticProps({ params }: any){
 
 export default function Post({ postData }: any){
   return (
-    <article>
+    <article className="max-w-4xl mx-auto px-6 py-12">
       <h1 className="text-3xl font-bold">{postData.title}</h1>
       <div className="text-sm text-gray-500 mb-6">{postData.date}</div>
       <div className="prose max-w-none">
