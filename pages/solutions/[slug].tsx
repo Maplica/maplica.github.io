@@ -81,6 +81,36 @@ function Steps({ children }: { children: ReactNode }) {
   return <div className="solution-steps my-8">{children}</div>
 }
 
+function MascotCTA({ href, children }: { href: string; children: ReactNode }) {
+  return (
+    <div className="relative my-10 flex flex-col sm:flex-row items-center gap-6 p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 border border-blue-100 shadow-sm not-prose overflow-hidden">
+      {/* Decorative dots */}
+      <div className="absolute top-0 right-0 w-32 h-32 opacity-[0.07]" style={{ backgroundImage: 'radial-gradient(circle, #4f46e5 1.5px, transparent 1.5px)', backgroundSize: '12px 12px' }} />
+      
+      {/* Mascot */}
+      <div className="shrink-0 relative">
+        <div className="absolute inset-0 bg-blue-200 rounded-full blur-xl opacity-30 scale-110" />
+        <img
+          src="/Mauno_Standalone.svg"
+          alt="Mauno-maskotti"
+          className="relative w-24 h-24 sm:w-28 sm:h-28 drop-shadow-md hover:scale-105 transition-transform"
+        />
+      </div>
+
+      {/* Text + CTA */}
+      <div className="flex-1 text-center sm:text-left">
+        <div className="text-gray-700 leading-relaxed mb-4 text-sm sm:text-base">{children}</div>
+        <a
+          href={href}
+          className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium text-sm bg-blue-600 text-white hover:bg-blue-700 shadow-md shadow-blue-600/20 hover:shadow-lg hover:shadow-blue-600/30 transition-all"
+        >
+          📬 Ota yhteyttä pilottiyhteistyöstä
+        </a>
+      </div>
+    </div>
+  )
+}
+
 const mdxComponents = {
   FeatureCard,
   FeatureGrid,
@@ -89,6 +119,7 @@ const mdxComponents = {
   CTAGroup,
   InfoCard,
   Steps,
+  MascotCTA,
 }
 
 export default function Solution({ solutionData }: Props) {
