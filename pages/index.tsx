@@ -128,9 +128,10 @@ export default function Home({ solutions }: HomeProps){
             <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Kiinnostuitko?</h3>
             <p className="text-blue-100 text-sm sm:text-base">Ota yhteyttä ja keskustellaan, miten voimme auttaa organisaatiotasi.</p>
           </div>
-          <a href="mailto:contact.maplica@gmail.com" className="inline-flex items-center gap-2 px-7 py-3.5 bg-white text-blue-700 font-semibold rounded-lg shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all shrink-0">
-            📬 Ota yhteyttä
-          </a>
+          <div className="text-center sm:text-right shrink-0">
+            <p className="text-blue-200 text-sm mb-1">Ota yhteyttä:</p>
+            <p className="text-white font-semibold text-base sm:text-lg">contact.maplica@gmail.com</p>
+          </div>
         </div>
       </section>
     </>
