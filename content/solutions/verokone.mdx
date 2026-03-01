@@ -1,29 +1,83 @@
 ---
 title: "KiinteistöveroApuri"
-description: "Suoraviivainen työnkulku kunnan kiinteistöverokartoitukseen."
+description: "Hallittu ja karttapohjainen ratkaisu kunnan kiinteistöveroaineistojen yhdistämiseen."
 icon: "🏢"
 ---
 
-Työkalumme suoraviivaistaa ja tehostaa kiinteistöverokartoitusprosessia kunnille. Se tuo kiinteistöverotietojen tarkastelun karttapohjalle ja auttaa löytämään tiedoista virheitä
+KiinteistöveroApuri suoraviivaistaa kunnan kiinteistöverokartoituksen ja tuo aineistojen yhdistämisen hallituksi, läpinäkyväksi ja toistettavaksi prosessiksi.
 
- - Kunnan kiinteistötietojen ja verotustietojen yhdistäminen
- - Tietojen tarkastelu QGis-karttapohjalla
- - Valmiit visualisoinnit tietojen korostamiseksi
- - Suora työkalu virheiden merkkaamiseen ja korjaamiseen
- - Korjattujen tietojen päivittäminen omaan ja verottajan järjestelmään
+Ratkaisu yhdistää kunnan kiinteistö- ja rakennustiedot veroviranomaisten aineistoihin ja tuo ne samaan QGIS-karttanäkymään analysoitavaksi.
 
-Työkalu on vielä kehitysvaiheessa. Haemme työkalulle testikäyttäjiä. [Ota yhteyttä](mailto:contact.maplica@gmail.com), jos kiinnostuit!
+## Mitä KiinteistöveroApuri mahdollistaa?
 
-<a href="https://drive.google.com/uc?export=download&id=11gq81z9ClERKgGLbFmqJbpOE7WCUPjKY" target="_blank" className="inline-block px-5 py-3 bg-blue-600 text-white rounded">Lataa asennuspaketti</a>
+<FeatureGrid>
+  <FeatureCard icon="🔗" title="Älykäs yhdistäminen">
+    Kunnan kiinteistö- ja verotustietojen automaattinen linkitys yhteen
+  </FeatureCard>
+  <FeatureCard icon="🗺️" title="Karttapohjainen tarkastelu">
+    Tietojen analysointi suoraan QGIS-karttapohjalla
+  </FeatureCard>
+  <FeatureCard icon="📊" title="Valmiit visualisoinnit">
+    Poikkeamien ja ristiriitojen havaitseminen yhdellä silmäyksellä
+  </FeatureCard>
+  <FeatureCard icon="✏️" title="Havaintojen hallinta">
+    Työkalu havaintojen merkitsemiseen ja korjausten seurantaan
+  </FeatureCard>
+  <FeatureCard icon="🔄" title="Hallittu päivitys">
+    Korjattujen tietojen siirto takaisin kunnan järjestelmiin
+  </FeatureCard>
+  <FeatureCard icon="⚡" title="Nopeampi analyysi">
+    Merkittävä tehostus verrattuna perinteiseen taulukkotyöskentelyyn
+  </FeatureCard>
+</FeatureGrid>
 
-**Asennus ja käyttöönotto**
+<Highlight>
 
-1. Lataa asennuspaketti
-2. Käynnistä QGis ja valitse "Laajennukset" -> "Laajennusten hallinta ja asennus"
-3. Valitse "Asenna laajennus ZIP-tiedostosta" ja osoita ohjelmapaketti
-4. Aktivoi ohjelma Laajennukset-valikosta
-Työkalun kuvake ilmestyy QGis-työkalupalkkiin ja on valmis käyttöön!
+Karttapohjainen tarkastelu tekee poikkeamista välittömästi näkyviä ja nopeuttaa analyysiä merkittävästi verrattuna perinteiseen taulukkotyöskentelyyn.
 
-Lisätietoja työkalun käytöstä löytyy [käyttöohjeista](https://maplica.github.io/kiinteistoveroapuri-docs).
+</Highlight>
 
-<a href="https://maplica.github.io/kiinteistoveroapuri-docs" target="_blank" className="inline-block px-5 py-3 bg-blue-600 text-white rounded">Käyttöohjeet</a>
+## Rakennettu kunnan omaan ympäristöön
+
+<FeatureGrid>
+  <FeatureCard icon="🧩" title="QGIS-laajennus">
+    Toimii suoraan tutussa QGIS-ympäristössä
+  </FeatureCard>
+  <FeatureCard icon="🔒" title="Ei pilvipalveluja">
+    Kaikki data pysyy kunnan omassa hallinnassa
+  </FeatureCard>
+  <FeatureCard icon="🌐" title="Avoin teknologia">
+    Avoimeen lähdekoodiin perustuva arkkitehtuuri
+  </FeatureCard>
+  <FeatureCard icon="🏛️" title="Täysi hallinta">
+    Kunta hallitsee tietojaan ja prosessiaan
+  </FeatureCard>
+</FeatureGrid>
+
+## Pilotointi ja käyttöönotto
+
+Työkalua kehitetään yhteistyössä kuntien kanssa. Haemme pilottikäyttäjiä, jotka haluavat:
+
+- tehostaa kiinteistöveroaineistojen yhdistämistä
+- vahvistaa veropohjan läpinäkyvyyttä
+- kehittää prosessia osana omaa toimintaympäristöään
+
+<CTAGroup>
+  <CTA href="mailto:contact.maplica@gmail.com" variant="primary">📬 Ota yhteyttä pilottiyhteistyöstä</CTA>
+</CTAGroup>
+
+## Asennus ja käyttöönotto
+
+<Steps>
+
+1. Lataa asennuspaketti alla olevasta painikkeesta
+2. Avaa QGIS → **Laajennukset** → **Laajennusten hallinta ja asennus**
+3. Valitse **Asenna laajennus ZIP-tiedostosta** ja osoita ladattu paketti
+4. Aktivoi laajennus – työkalun kuvake ilmestyy työkalupalkkiin
+
+</Steps>
+
+<CTAGroup>
+  <CTA href="https://drive.google.com/uc?export=download&id=11gq81z9ClERKgGLbFmqJbpOE7WCUPjKY" variant="primary">⬇️ Lataa asennuspaketti</CTA>
+  <CTA href="https://maplica.github.io/kiinteistoveroapuri-docs" variant="secondary">📖 Käyttöohjeet</CTA>
+</CTAGroup>

@@ -4,3 +4,17 @@
 
 html, body, #__next { height: 100%; }
 body { @apply bg-gray-50 text-gray-900; }
+
+/* ── Solution page steps ── */
+.solution-steps ol {
+  @apply list-none p-0 m-0 space-y-4;
+  counter-reset: step;
+}
+.solution-steps ol li {
+  @apply relative pl-12 py-3 pr-4 rounded-lg bg-white border border-gray-100 shadow-sm text-gray-700;
+  counter-increment: step;
+}
+.solution-steps ol li::before {
+  content: counter(step);
+  @apply absolute left-4 top-3 w-6 h-6 rounded-full bg-blue-600 text-white text-xs font-bold flex items-center justify-center;
+}
