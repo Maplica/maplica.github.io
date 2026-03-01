@@ -60,7 +60,7 @@ export default function Home({ solutions }: HomeProps){
             <div className="relative">
               <div className="absolute inset-0 bg-white/20 rounded-full blur-3xl scale-110" />
               <img
-                src="/Mauno_Standalone.svg"
+                src="/Mauno.svg"
                 alt="Mauno-maskotti"
                 className="relative w-40 h-40 sm:w-52 sm:h-52 lg:w-64 lg:h-64 drop-shadow-2xl hover:scale-105 transition-transform duration-300"
               />
@@ -122,7 +122,7 @@ export default function Home({ solutions }: HomeProps){
 
         <div className="relative max-w-4xl mx-auto px-6 py-14 flex flex-col sm:flex-row items-center gap-8">
           <div className="shrink-0">
-            <img src="/Mauno_Standalone.svg" alt="Mauno" className="w-20 h-20 drop-shadow-lg hover:scale-105 transition-transform" />
+            <img src="/Mauno.svg" alt="Mauno" className="w-20 h-20 drop-shadow-lg hover:scale-105 transition-transform" />
           </div>
           <div className="flex-1 text-center sm:text-left">
             <h3 className="text-xl sm:text-2xl font-bold text-white mb-2">Kiinnostuitko?</h3>
