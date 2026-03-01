@@ -19,7 +19,7 @@ export default function Solutions({ solutions }: SolutionsProps){
     <section className="py-16 bg-white">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-2xl sm:text-3xl font-bold text-center mb-3 tracking-tight">Ratkaisumme</h2>
-        <p className="text-center text-gray-500 mb-12 max-w-xl mx-auto">Tällaista olemme tehneet.</p>
+        <p className="text-center text-gray-500 mb-12 max-w-xl mx-auto">Rakennettu yhdessä käyttäjien kanssa.</p>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {solutions.map((sol) => {
